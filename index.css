@@ -1,0 +1,59 @@
+.logo-image{
+    width: 200px;
+    height: 150px;
+
+}
+
+header{
+    max-width: 100px;
+    display: flex;
+    position: fixed;
+}
+
+ul {
+    width: 1000px;
+    height:100px;    
+    display: flex;
+    padding-inline-start: 100%;
+    justify-content:space-around;
+}
+
+nav {
+    width: 100px;
+}
+
+.sign-up-page{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-form{
+    text-align: center;
+}
+
+.vedio-page{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.vedio {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.Hire-Motorbike{
+    height:400px;
+    background-image:url(https://image.shutterstock.com/image-vector/bike-motorbike-flat-vector-illustration-260nw-683501962.jpg)
+}
+
+@media only screen and (max-width:600px){
+    body{
+        background-color:lightcoral;
+    }
+}
